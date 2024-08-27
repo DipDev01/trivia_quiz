@@ -1,0 +1,25 @@
+
+/* Basic CSS for layout */
+body { 
+    font-family: Arial, sans-serif; 
+}
+.container { 
+    width: 300px; 
+    margin: 50px auto; 
+    text-align: center; 
+}
+.question { 
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+.answers { 
+    display: flex; 
+    flex-direction: column; 
+}
+.answers button { 
+    margin: 5px 0; 
+    padding: 10px; 
+    background-color: #eee; 
+    border: none; 
+    cursor: pointer; 
+}
